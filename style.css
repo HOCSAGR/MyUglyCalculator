@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+}
+
+.menu, .input, #keypad {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    padding: 10px
+}
+
+.menu, .input, #keypad > div {
+    background-color: beige;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
